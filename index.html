@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Computer Science</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+
+		<header>
+			<nav>
+				<div class="navbar" style="text-transform: capitalize;">
+					<ul id="ul" >
+						<li><a href="#" class="aa">services</a></li>
+						<li><a href="#" class="aa">about</a></li>
+						<li><a href="#" class="aa">contact us</a></li>
+						<li><a href="#" class="aa">help</a></li>
+					</ul>
+				</div>
+				<dir class="show">
+					<a href="#" id="show" onclick="myfunction()">Show</a>
+				</dir>
+			</nav>
+
+			<div class="top">
+				<h1>
+					<span >logic mind </span><br>
+					technological & software house
+				</h1>
+			</div>
+			<div class="link">
+				<a href="#" class="proj">projects</a>
+				<a href="#" class="ref">references</a>
+			</div>
+
+			<a href="#"><div class="fun"></div></a>
+			
+		</header>
+
+		<script type="text/javascript">
+				function myfunction(){
+					var a = document.getElementById('ul');
+					if(a.style.display==="none"){
+						a.style.display="block";
+					}else{
+						a.style.display="none";
+					}
+				}
+		</script>
+
+</body>
+</html>
